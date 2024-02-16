@@ -8,9 +8,9 @@ Machine Learning Breakdown
    - The training data was fitted with a logistic regression model (this model is used primarily as a 'yes' or 'no' prediction specialist, perfect)
    - After the model was trained, it was fitted against the test data in order to make predctions
    - A confusin matrix was then created to visualize the accuracy the model exhibited in predicting low and high risk borrowers
-
-Precision - The model scored a 100% on its ability to determine a low risk borrower
-Recall - The model scored a 95% in its ability to determine a high risk borrower
-Accuracy - 99% accuracy for the logistic regression model
+Test Results
+   Precision - The model scored a 100% on its ability to determine a low risk borrower
+   Recall - The model scored a 95% in its ability to determine a high risk borrower
+   Accuracy - 99% accuracy for the logistic regression model
 
 After a brief analysis, I believe that the model performed exceptionally well.  It is hard to refute an accuracy score of 99%.  It is my belief that the objective of the model is to predict with near certainty that a borrower is a high risk target.  Yes 95% recall is very good, with more data and training, I believe it can perform better.  Depending on the specific lending institution(s) standards and convictions, I would reccommend this model to go live with further testing done along the way for improvement.  
